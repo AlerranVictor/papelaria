@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #FAF8F1;
+}
+
+main{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FAF8F1;
+}
+
+.menu{
+    display: flex;
+
+    background-color: #E5BA73;
+    width: 360px;
+    max-width: 360px;
+    height: 65px;
+    max-height: 65px;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+#conteudo{
+    display: flex;
+    background-color: #FAF8F1;
+    width: 360px;
+    height: 800px;
+}
+
+.mercadorias{
+    width: 360px;
+    overflow: scroll;
+}
+
+.textosecao{
+    margin: 15px 0px 0px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Montserrat;
+    padding-left: 15px;
+}
+
+.secoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: scroll;
+    padding-left: 15px;
+    margin: 5px 0px 5px;
+}
+
+.produtos{
+    padding-right: 8px;
+    
+}
+
+.produtos img{
+    height: 100px;
+    width: 140px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    box-shadow: 1px 4px 7px 0px #C58940;
+}
+
+.produtos p{
+    margin: 0px 0px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#logo{
+    display: flex;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+#logo img{
+    max-width: 40px;
+    max-height: 40px;
+}
+
+#barras img{
+    max-width: 35px;
+    height: 25px;
+    max-height: 35px;
+}

@@ -1,0 +1,49 @@
+<main>
+    <section class="menu">
+        <div id="logo">
+            <img src="/assets/imgs/7e9b672b6ccac85b49b8ade8fd06335d-desenho-bonito-a-lapis.png" alt="logo da empresa papelaria">
+        </div>
+        <div id="b-search">
+            <img src="/assets/imgs/Rectangle 4.png" alt="">
+        </div>
+        <div id="barras">
+            <img src="/assets/imgs/menu-black-bar-removebg-preview.png" alt="">
+        </div>
+    </section>
+
+    <section id="conteudo">
+        <div class="mercadorias">
+            <p class="textosecao">LANÇAMENTO</p>
+            <div class="secoes">
+                <div class="produtos" *ngFor="let cards of this.PService.cadernos">
+                    <img [src]="cards.img" alt="caderno comum">
+                    <p>{{cards.nome}}</p>
+                </div>
+            </div>
+
+            <p class="textosecao">CADERNOS</p>
+            <div class="secoes">
+                <div class="produtos">
+                    <img src="/assets/imgs/caderno-comum.jpeg" alt="caderno comum">
+                    <p>Caderno comum</p>
+                </div>
+                <div class="produtos">
+                    <img src="/assets/imgs/caderno-de-anel-preto-isolado_125540-2549.avif" alt="">
+                    <p>Caderno comum</p>
+                </div>
+                <div class="produtos">
+                    <img src="/assets/imgs/caderno_74190-2725.avif" alt="">
+                    <p>Caderno comum</p>
+                </div>
+            </div>
+
+            <p class="textosecao">POST IT'S</p>
+            <div class="secoes">
+                <div class="produtos" *ngFor="let posts of this.PService.postIts">
+                    <img [src]="posts.img" alt="caderno comum">
+                    <p>{{posts.nome}}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
